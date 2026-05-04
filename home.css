@@ -39,7 +39,7 @@ margin: 3px;
 }
 img{float: right;}
     h2{ color:#0f2b30;}
-    table{background-color:#0f2b30; border: 3px solid #0a4d51; border-radius: 30px; width: 400px; float: right; height: 400px; margin-top: -90px;}
+    table{background: linear-gradient(110deg, #0f2b30 0%, #050a0d 100%); border: 3px solid #0a4d51; border-radius: 30px; width: 400px; float: right; height: 400px; margin-top: -90px;}
     th{color:white;}
     td{color:white; font-size: 16px; height: 30px;}
     th,td{ border-bottom: 1px solid grey;}
