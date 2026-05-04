@@ -24,12 +24,12 @@ margin: 3px;
           transition: all .3s ease; 
           box-shadow: 0 4px 6px rgba(0, 0, 0,.1);}
     a:hover{
-        background-color:#0f2b30;
+       background: linear-gradient(110deg, #0f2b30 0%, #050a0d 100%);
         transform: translateY(-2px);
         box-shadow: 0 5px 15px rgba(255, 255, 255,.2);
 
     }
-    nav{background-color: #0f2b30;
+    nav{background: linear-gradient(110deg, #0f2b30 0%, #050a0d 100%);
     width: 50%;
     display: block;
     padding: 2px;
@@ -51,10 +51,10 @@ img{float: right;}
     p{color:#ffffff; font-size: large;}
     #spical-text{font-size: large; font-weight: bold; color:white;}
     form {
-    background-color:#0f2b30;
+   background: linear-gradient(110deg, #0f2b30 0%, #050a0d 100%);
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 212, 224,.6);
+    box-shadow: 0 0 30px #0f2b30, 0 0 100px #0f2b30;
     width: 100%;
     max-width: 400px;        
     display: flex;
@@ -129,7 +129,7 @@ img{float: right;}
         box-shadow: 0 5px 15px rgba(255, 255, 255,.2); color: white;}
         @media (max-width: 768px) {
     nav {
-        width: 80%;
+        width: 90%;
         border-radius: 30px;
     }
     table {
